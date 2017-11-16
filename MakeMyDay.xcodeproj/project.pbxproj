@@ -12,6 +12,16 @@
 		7515709E1FBDE66800259E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7515709C1FBDE66800259E09 /* Main.storyboard */; };
 		751570A01FBDE66800259E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7515709F1FBDE66800259E09 /* Assets.xcassets */; };
 		751570A31FBDE66800259E09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751570A11FBDE66800259E09 /* LaunchScreen.storyboard */; };
+		752561C71FBDE917005E47E4 /* SignService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752561C61FBDE917005E47E4 /* SignService.swift */; };
+		752561CB1FBDE92A005E47E4 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752561CA1FBDE92A005E47E4 /* CloudKit.framework */; };
+		752561E91FBDEC04005E47E4 /* SwiftyUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752561E81FBDEC04005E47E4 /* SwiftyUserDefaults.swift */; };
+		752561EB1FBDEC3C005E47E4 /* DefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752561EA1FBDEC3C005E47E4 /* DefaultsKeys.swift */; };
+		752561ED1FBDED1C005E47E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 752561EC1FBDED1C005E47E4 /* GoogleService-Info.plist */; };
+		752561EE1FBDEFA5005E47E4 /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752561E21FBDEBCF005E47E4 /* Abstraction.swift */; };
+		752561EF1FBDEFA5005E47E4 /* Constrainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752561E31FBDEBCF005E47E4 /* Constrainable.swift */; };
+		752561F01FBDEFA5005E47E4 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752561E41FBDEBCF005E47E4 /* Constraints.swift */; };
+		752561F11FBDEFA5005E47E4 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752561E51FBDEBCF005E47E4 /* Stack.swift */; };
+		752561F21FBDEFA5005E47E4 /* TinyConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752561E61FBDEBCF005E47E4 /* TinyConstraints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,17 @@
 		7515709F1FBDE66800259E09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		751570A21FBDE66800259E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		751570A41FBDE66800259E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		752561C61FBDE917005E47E4 /* SignService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignService.swift; sourceTree = "<group>"; };
+		752561C81FBDE928005E47E4 /* MakeMyDay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MakeMyDay.entitlements; sourceTree = "<group>"; };
+		752561CA1FBDE92A005E47E4 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		752561E21FBDEBCF005E47E4 /* Abstraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstraction.swift; sourceTree = "<group>"; };
+		752561E31FBDEBCF005E47E4 /* Constrainable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constrainable.swift; sourceTree = "<group>"; };
+		752561E41FBDEBCF005E47E4 /* Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
+		752561E51FBDEBCF005E47E4 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		752561E61FBDEBCF005E47E4 /* TinyConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyConstraints.swift; sourceTree = "<group>"; };
+		752561E81FBDEC04005E47E4 /* SwiftyUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyUserDefaults.swift; sourceTree = "<group>"; };
+		752561EA1FBDEC3C005E47E4 /* DefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsKeys.swift; sourceTree = "<group>"; };
+		752561EC1FBDED1C005E47E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				752561CB1FBDE92A005E47E4 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +62,7 @@
 			children = (
 				751570971FBDE66800259E09 /* MakeMyDay */,
 				751570961FBDE66800259E09 /* Products */,
+				752561C91FBDE92A005E47E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,72 @@
 		751570971FBDE66800259E09 /* MakeMyDay */ = {
 			isa = PBXGroup;
 			children = (
+				752561CC1FBDE93E005E47E4 /* Entitlements */,
+				752561DF1FBDEBCE005E47E4 /* Add-ons */,
 				751570981FBDE66800259E09 /* AppDelegate.swift */,
 				7515709A1FBDE66800259E09 /* ViewController.swift */,
+				752561CD1FBDE94F005E47E4 /* Services */,
 				7515709C1FBDE66800259E09 /* Main.storyboard */,
 				7515709F1FBDE66800259E09 /* Assets.xcassets */,
 				751570A11FBDE66800259E09 /* LaunchScreen.storyboard */,
+				752561EC1FBDED1C005E47E4 /* GoogleService-Info.plist */,
 				751570A41FBDE66800259E09 /* Info.plist */,
 			);
 			path = MakeMyDay;
+			sourceTree = "<group>";
+		};
+		752561C91FBDE92A005E47E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				752561CA1FBDE92A005E47E4 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		752561CC1FBDE93E005E47E4 /* Entitlements */ = {
+			isa = PBXGroup;
+			children = (
+				752561C81FBDE928005E47E4 /* MakeMyDay.entitlements */,
+			);
+			path = Entitlements;
+			sourceTree = "<group>";
+		};
+		752561CD1FBDE94F005E47E4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				752561C61FBDE917005E47E4 /* SignService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		752561DF1FBDEBCE005E47E4 /* Add-ons */ = {
+			isa = PBXGroup;
+			children = (
+				752561E71FBDEBE8005E47E4 /* SwiftyUserDefaults */,
+				752561E01FBDEBCF005E47E4 /* TinyConstraints */,
+			);
+			path = "Add-ons";
+			sourceTree = "<group>";
+		};
+		752561E01FBDEBCF005E47E4 /* TinyConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				752561E21FBDEBCF005E47E4 /* Abstraction.swift */,
+				752561E31FBDEBCF005E47E4 /* Constrainable.swift */,
+				752561E41FBDEBCF005E47E4 /* Constraints.swift */,
+				752561E51FBDEBCF005E47E4 /* Stack.swift */,
+				752561E61FBDEBCF005E47E4 /* TinyConstraints.swift */,
+			);
+			path = TinyConstraints;
+			sourceTree = "<group>";
+		};
+		752561E71FBDEBE8005E47E4 /* SwiftyUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				752561E81FBDEC04005E47E4 /* SwiftyUserDefaults.swift */,
+				752561EA1FBDEC3C005E47E4 /* DefaultsKeys.swift */,
+			);
+			path = SwiftyUserDefaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +177,14 @@
 				TargetAttributes = {
 					751570941FBDE66800259E09 = {
 						CreatedOnToolsVersion = 9.0;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,6 +213,7 @@
 			files = (
 				751570A31FBDE66800259E09 /* LaunchScreen.storyboard in Resources */,
 				751570A01FBDE66800259E09 /* Assets.xcassets in Resources */,
+				752561ED1FBDED1C005E47E4 /* GoogleService-Info.plist in Resources */,
 				7515709E1FBDE66800259E09 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +225,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				752561EE1FBDEFA5005E47E4 /* Abstraction.swift in Sources */,
+				752561EF1FBDEFA5005E47E4 /* Constrainable.swift in Sources */,
+				752561F01FBDEFA5005E47E4 /* Constraints.swift in Sources */,
+				752561F11FBDEFA5005E47E4 /* Stack.swift in Sources */,
+				752561F21FBDEFA5005E47E4 /* TinyConstraints.swift in Sources */,
+				752561E91FBDEC04005E47E4 /* SwiftyUserDefaults.swift in Sources */,
 				7515709B1FBDE66800259E09 /* ViewController.swift in Sources */,
+				752561C71FBDE917005E47E4 /* SignService.swift in Sources */,
 				751570991FBDE66800259E09 /* AppDelegate.swift in Sources */,
+				752561EB1FBDEC3C005E47E4 /* DefaultsKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,13 +371,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MakeMyDay/Entitlements/MakeMyDay.entitlements;
 				DEVELOPMENT_TEAM = 65952893XA;
 				INFOPLIST_FILE = MakeMyDay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.evgenymitko.MakeMyDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -287,13 +387,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MakeMyDay/Entitlements/MakeMyDay.entitlements;
 				DEVELOPMENT_TEAM = 65952893XA;
 				INFOPLIST_FILE = MakeMyDay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.evgenymitko.MakeMyDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
