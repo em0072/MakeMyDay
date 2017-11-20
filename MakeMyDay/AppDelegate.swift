@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,8 +16,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        SignService.shared.signIn()
-        // Override point for customization after application launch.
+
+        FirebaseApp.configure()
+        
+        let rootVC = TaskSwitcherViewController()
+//        let rootNC = UINavigationController(rootViewController: rootVC)
+//        rootNC.navigationBar.backgroundColor = .clear
+//        rootNC.navigationBar.isTranslucent = true
+//        rootNC.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = rootVC
+        window?.makeKeyAndVisible()
+
+        SignService.shared.signIn() { id in
+            SignService.shared.singInFirebase()
+        }
+        UIApplication.shared.statusBarStyle = .lightContent
         return true
     }
 
@@ -41,7 +56,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
+    
 }
 

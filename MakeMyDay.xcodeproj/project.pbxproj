@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C20B2B13DFCA123E3F62C08 /* Pods_MakeMyDay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C62575A385DC9CB384DB1B /* Pods_MakeMyDay.framework */; };
 		751570991FBDE66800259E09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751570981FBDE66800259E09 /* AppDelegate.swift */; };
 		7515709B1FBDE66800259E09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7515709A1FBDE66800259E09 /* ViewController.swift */; };
 		7515709E1FBDE66800259E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7515709C1FBDE66800259E09 /* Main.storyboard */; };
 		751570A01FBDE66800259E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7515709F1FBDE66800259E09 /* Assets.xcassets */; };
 		751570A31FBDE66800259E09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751570A11FBDE66800259E09 /* LaunchScreen.storyboard */; };
+		75230E421FC1FCF0007454F4 /* DynamicColor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75230E411FC1FCEF007454F4 /* DynamicColor.framework */; };
+		75230E441FC1FD3F007454F4 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75230E431FC1FD3F007454F4 /* UIColorExtension.swift */; };
+		75230E461FC20112007454F4 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75230E451FC20112007454F4 /* TaskCell.swift */; };
+		75230E481FC20666007454F4 /* TaskSwitcherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75230E471FC20666007454F4 /* TaskSwitcherViewController.swift */; };
+		75230E4A1FC206DE007454F4 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75230E491FC206DE007454F4 /* TaskList.swift */; };
+		75230E4C1FC21018007454F4 /* TaskSwitcherSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75230E4B1FC21018007454F4 /* TaskSwitcherSectionController.swift */; };
+		75230E501FC21BF0007454F4 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75230E4F1FC21BF0007454F4 /* HeaderView.swift */; };
+		75230E521FC21C16007454F4 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75230E511FC21C16007454F4 /* BaseView.swift */; };
+		75230E551FC358F0007454F4 /* Swift.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 75230E541FC358EF007454F4 /* Swift.gitignore */; };
 		752561C71FBDE917005E47E4 /* SignService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752561C61FBDE917005E47E4 /* SignService.swift */; };
 		752561CB1FBDE92A005E47E4 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752561CA1FBDE92A005E47E4 /* CloudKit.framework */; };
 		752561E91FBDEC04005E47E4 /* SwiftyUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752561E81FBDEC04005E47E4 /* SwiftyUserDefaults.swift */; };
@@ -22,9 +32,20 @@
 		752561F01FBDEFA5005E47E4 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752561E41FBDEBCF005E47E4 /* Constraints.swift */; };
 		752561F11FBDEFA5005E47E4 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752561E51FBDEBCF005E47E4 /* Stack.swift */; };
 		752561F21FBDEFA5005E47E4 /* TinyConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752561E61FBDEBCF005E47E4 /* TinyConstraints.swift */; };
+		75BA1BB41FC022B800C8DAE8 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BA1BB31FC022B700C8DAE8 /* DatabaseService.swift */; };
+		75BA1BB61FC0780400C8DAE8 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BA1BB51FC0780400C8DAE8 /* Task.swift */; };
+		75BA1BB81FC078DA00C8DAE8 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BA1BB71FC078DA00C8DAE8 /* DateExtension.swift */; };
+		75E193591FBDF6A800129BB1 /* IGListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E193581FBDF6A800129BB1 /* IGListKit.framework */; };
+		75E1935B1FBDF6A900129BB1 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75E1935A1FBDF6A900129BB1 /* SwiftyBeaver.framework */; };
+		75E1935E1FBDF7BB00129BB1 /* MainTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E1935D1FBDF7BB00129BB1 /* MainTaskViewController.swift */; };
+		75E193601FBDF8DB00129BB1 /* LogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E1935F1FBDF8DB00129BB1 /* LogService.swift */; };
+		75E193631FBDFA5900129BB1 /* SectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E193621FBDFA5900129BB1 /* SectionController.swift */; };
+		75E193651FBE001C00129BB1 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E193641FBE001C00129BB1 /* NSObjectExtension.swift */; };
+		75E1936D1FBE2DE200129BB1 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E1936C1FBE2DE200129BB1 /* LabelCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5230CD0AB14FCD7E53F4F98F /* Pods-MakeMyDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeMyDay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MakeMyDay/Pods-MakeMyDay.debug.xcconfig"; sourceTree = "<group>"; };
 		751570951FBDE66800259E09 /* MakeMyDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeMyDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		751570981FBDE66800259E09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7515709A1FBDE66800259E09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,6 +53,15 @@
 		7515709F1FBDE66800259E09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		751570A21FBDE66800259E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		751570A41FBDE66800259E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75230E411FC1FCEF007454F4 /* DynamicColor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DynamicColor.framework; path = Carthage/Build/iOS/DynamicColor.framework; sourceTree = "<group>"; };
+		75230E431FC1FD3F007454F4 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		75230E451FC20112007454F4 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		75230E471FC20666007454F4 /* TaskSwitcherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSwitcherViewController.swift; sourceTree = "<group>"; };
+		75230E491FC206DE007454F4 /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
+		75230E4B1FC21018007454F4 /* TaskSwitcherSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSwitcherSectionController.swift; sourceTree = "<group>"; };
+		75230E4F1FC21BF0007454F4 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		75230E511FC21C16007454F4 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		75230E541FC358EF007454F4 /* Swift.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Swift.gitignore; sourceTree = "<group>"; };
 		752561C61FBDE917005E47E4 /* SignService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignService.swift; sourceTree = "<group>"; };
 		752561C81FBDE928005E47E4 /* MakeMyDay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MakeMyDay.entitlements; sourceTree = "<group>"; };
 		752561CA1FBDE92A005E47E4 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
@@ -43,6 +73,18 @@
 		752561E81FBDEC04005E47E4 /* SwiftyUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyUserDefaults.swift; sourceTree = "<group>"; };
 		752561EA1FBDEC3C005E47E4 /* DefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsKeys.swift; sourceTree = "<group>"; };
 		752561EC1FBDED1C005E47E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		75BA1BB31FC022B700C8DAE8 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		75BA1BB51FC0780400C8DAE8 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		75BA1BB71FC078DA00C8DAE8 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		75E193581FBDF6A800129BB1 /* IGListKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IGListKit.framework; path = Carthage/Build/iOS/IGListKit.framework; sourceTree = "<group>"; };
+		75E1935A1FBDF6A900129BB1 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyBeaver.framework; path = Carthage/Build/iOS/SwiftyBeaver.framework; sourceTree = "<group>"; };
+		75E1935D1FBDF7BB00129BB1 /* MainTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTaskViewController.swift; sourceTree = "<group>"; };
+		75E1935F1FBDF8DB00129BB1 /* LogService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogService.swift; sourceTree = "<group>"; };
+		75E193621FBDFA5900129BB1 /* SectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionController.swift; sourceTree = "<group>"; };
+		75E193641FBE001C00129BB1 /* NSObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		75E1936C1FBE2DE200129BB1 /* LabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
+		92C62575A385DC9CB384DB1B /* Pods_MakeMyDay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeMyDay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA61F511E8C31649FA309F3 /* Pods-MakeMyDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeMyDay.release.xcconfig"; path = "Pods/Target Support Files/Pods-MakeMyDay/Pods-MakeMyDay.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +93,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				752561CB1FBDE92A005E47E4 /* CloudKit.framework in Frameworks */,
+				75E193591FBDF6A800129BB1 /* IGListKit.framework in Frameworks */,
+				75230E421FC1FCF0007454F4 /* DynamicColor.framework in Frameworks */,
+				75E1935B1FBDF6A900129BB1 /* SwiftyBeaver.framework in Frameworks */,
+				5C20B2B13DFCA123E3F62C08 /* Pods_MakeMyDay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +106,11 @@
 		7515708C1FBDE66800259E09 = {
 			isa = PBXGroup;
 			children = (
+				75230E541FC358EF007454F4 /* Swift.gitignore */,
 				751570971FBDE66800259E09 /* MakeMyDay */,
 				751570961FBDE66800259E09 /* Products */,
 				752561C91FBDE92A005E47E4 /* Frameworks */,
+				E35C2739BAF5F7B6EB21594E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,9 +128,15 @@
 				752561CC1FBDE93E005E47E4 /* Entitlements */,
 				752561DF1FBDEBCE005E47E4 /* Add-ons */,
 				751570981FBDE66800259E09 /* AppDelegate.swift */,
-				7515709A1FBDE66800259E09 /* ViewController.swift */,
+				75230E531FC21C28007454F4 /* BaseClasses */,
+				75E1935D1FBDF7BB00129BB1 /* MainTaskViewController.swift */,
+				75230E4F1FC21BF0007454F4 /* HeaderView.swift */,
+				75230E4D1FC21862007454F4 /* TaskSwitcherViewController */,
+				75230E4E1FC21895007454F4 /* Models */,
+				75E193611FBDFA3D00129BB1 /* IGList */,
 				752561CD1FBDE94F005E47E4 /* Services */,
 				7515709C1FBDE66800259E09 /* Main.storyboard */,
+				75E193661FBE00E100129BB1 /* Extensions */,
 				7515709F1FBDE66800259E09 /* Assets.xcassets */,
 				751570A11FBDE66800259E09 /* LaunchScreen.storyboard */,
 				752561EC1FBDED1C005E47E4 /* GoogleService-Info.plist */,
@@ -91,10 +145,41 @@
 			path = MakeMyDay;
 			sourceTree = "<group>";
 		};
+		75230E4D1FC21862007454F4 /* TaskSwitcherViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75230E471FC20666007454F4 /* TaskSwitcherViewController.swift */,
+				75230E4B1FC21018007454F4 /* TaskSwitcherSectionController.swift */,
+			);
+			path = TaskSwitcherViewController;
+			sourceTree = "<group>";
+		};
+		75230E4E1FC21895007454F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				75BA1BB51FC0780400C8DAE8 /* Task.swift */,
+				75230E491FC206DE007454F4 /* TaskList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		75230E531FC21C28007454F4 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				7515709A1FBDE66800259E09 /* ViewController.swift */,
+				75230E511FC21C16007454F4 /* BaseView.swift */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
 		752561C91FBDE92A005E47E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75230E411FC1FCEF007454F4 /* DynamicColor.framework */,
+				75E1935A1FBDF6A900129BB1 /* SwiftyBeaver.framework */,
+				75E193581FBDF6A800129BB1 /* IGListKit.framework */,
 				752561CA1FBDE92A005E47E4 /* CloudKit.framework */,
+				92C62575A385DC9CB384DB1B /* Pods_MakeMyDay.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +196,8 @@
 			isa = PBXGroup;
 			children = (
 				752561C61FBDE917005E47E4 /* SignService.swift */,
+				75E1935F1FBDF8DB00129BB1 /* LogService.swift */,
+				75BA1BB31FC022B700C8DAE8 /* DatabaseService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -145,6 +232,35 @@
 			path = SwiftyUserDefaults;
 			sourceTree = "<group>";
 		};
+		75E193611FBDFA3D00129BB1 /* IGList */ = {
+			isa = PBXGroup;
+			children = (
+				75E193621FBDFA5900129BB1 /* SectionController.swift */,
+				75230E451FC20112007454F4 /* TaskCell.swift */,
+				75E1936C1FBE2DE200129BB1 /* LabelCell.swift */,
+			);
+			path = IGList;
+			sourceTree = "<group>";
+		};
+		75E193661FBE00E100129BB1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				75E193641FBE001C00129BB1 /* NSObjectExtension.swift */,
+				75BA1BB71FC078DA00C8DAE8 /* DateExtension.swift */,
+				75230E431FC1FD3F007454F4 /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E35C2739BAF5F7B6EB21594E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5230CD0AB14FCD7E53F4F98F /* Pods-MakeMyDay.debug.xcconfig */,
+				BBA61F511E8C31649FA309F3 /* Pods-MakeMyDay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +268,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 751570A71FBDE66800259E09 /* Build configuration list for PBXNativeTarget "MakeMyDay" */;
 			buildPhases = (
+				A537B80417E3EA8E0A2C7177 /* [CP] Check Pods Manifest.lock */,
 				751570911FBDE66800259E09 /* Sources */,
 				751570921FBDE66800259E09 /* Frameworks */,
 				751570931FBDE66800259E09 /* Resources */,
+				75E1935C1FBDF6CC00129BB1 /* Run Script */,
+				C15348607DEC50C97496EEDC /* [CP] Embed Pods Frameworks */,
+				AD53BBEEDCE301A83C5476B6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75230E551FC358F0007454F4 /* Swift.gitignore in Resources */,
 				751570A31FBDE66800259E09 /* LaunchScreen.storyboard in Resources */,
 				751570A01FBDE66800259E09 /* Assets.xcassets in Resources */,
 				752561ED1FBDED1C005E47E4 /* GoogleService-Info.plist in Resources */,
@@ -220,21 +341,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		75E1935C1FBDF6CC00129BB1 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyBeaver.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/IGListKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/DynamicColor.framework",
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks ";
+		};
+		A537B80417E3EA8E0A2C7177 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD53BBEEDCE301A83C5476B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakeMyDay/Pods-MakeMyDay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C15348607DEC50C97496EEDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MakeMyDay/Pods-MakeMyDay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		751570911FBDE66800259E09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				752561EE1FBDEFA5005E47E4 /* Abstraction.swift in Sources */,
+				75E193631FBDFA5900129BB1 /* SectionController.swift in Sources */,
 				752561EF1FBDEFA5005E47E4 /* Constrainable.swift in Sources */,
 				752561F01FBDEFA5005E47E4 /* Constraints.swift in Sources */,
+				75230E461FC20112007454F4 /* TaskCell.swift in Sources */,
+				75230E441FC1FD3F007454F4 /* UIColorExtension.swift in Sources */,
 				752561F11FBDEFA5005E47E4 /* Stack.swift in Sources */,
+				75230E501FC21BF0007454F4 /* HeaderView.swift in Sources */,
 				752561F21FBDEFA5005E47E4 /* TinyConstraints.swift in Sources */,
+				75BA1BB41FC022B800C8DAE8 /* DatabaseService.swift in Sources */,
 				752561E91FBDEC04005E47E4 /* SwiftyUserDefaults.swift in Sources */,
+				75E193651FBE001C00129BB1 /* NSObjectExtension.swift in Sources */,
+				75230E481FC20666007454F4 /* TaskSwitcherViewController.swift in Sources */,
+				75230E4C1FC21018007454F4 /* TaskSwitcherSectionController.swift in Sources */,
+				75230E4A1FC206DE007454F4 /* TaskList.swift in Sources */,
 				7515709B1FBDE66800259E09 /* ViewController.swift in Sources */,
 				752561C71FBDE917005E47E4 /* SignService.swift in Sources */,
 				751570991FBDE66800259E09 /* AppDelegate.swift in Sources */,
 				752561EB1FBDEC3C005E47E4 /* DefaultsKeys.swift in Sources */,
+				75BA1BB81FC078DA00C8DAE8 /* DateExtension.swift in Sources */,
+				75E193601FBDF8DB00129BB1 /* LogService.swift in Sources */,
+				75E1936D1FBE2DE200129BB1 /* LabelCell.swift in Sources */,
+				75230E521FC21C16007454F4 /* BaseView.swift in Sources */,
+				75BA1BB61FC0780400C8DAE8 /* Task.swift in Sources */,
+				75E1935E1FBDF7BB00129BB1 /* MainTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,12 +509,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -359,43 +563,62 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USER_HEADER_SEARCH_PATHS = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		751570A81FBDE66800259E09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5230CD0AB14FCD7E53F4F98F /* Pods-MakeMyDay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MakeMyDay/Entitlements/MakeMyDay.entitlements;
 				DEVELOPMENT_TEAM = 65952893XA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MakeMyDay/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.evgenymitko.MakeMyDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		751570A91FBDE66800259E09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA61F511E8C31649FA309F3 /* Pods-MakeMyDay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MakeMyDay/Entitlements/MakeMyDay.entitlements;
 				DEVELOPMENT_TEAM = 65952893XA;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MakeMyDay/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.evgenymitko.MakeMyDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};

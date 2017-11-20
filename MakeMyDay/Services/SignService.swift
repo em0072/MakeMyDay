@@ -9,11 +9,14 @@
 import Foundation
 import CloudKit
 
-struct SignService {
+class SignService {
+    
+    let remoteDatabase = DatabaseService.shared
     
     static var shared: SignService = {
         return SignService()
     }()
+
     /// async gets iCloud record ID object of logged-in iCloud user
     private func iCloudUserIDAsync(complete: @escaping (_ instance: CKRecordID?, _ error: Error?) -> ()) {
         let container = CKContainer.default()
@@ -28,17 +31,22 @@ struct SignService {
     }
     
     
-    func signIn() {
+    func signIn(_ completion: ((_ iCloudId: String)->())? = nil ) {
         iCloudUserIDAsync { (recordId, error) in
             if let userId = recordId?.recordName {
-                print("fetched ID \(userId)")
+                Log.d("fetched ID \(userId)")
                 Defaults[.iCloudRecordId] = userId
+                completion?(userId)
             } else if let error = error {
-                print(error.localizedDescription)
+                Log.e(error.localizedDescription)
             } else {
-                print("error fetching iCloud Record")
+                Log.e("error fetching iCloud Record")
             }
         }
+    }
+    
+    func singInFirebase() {
+        remoteDatabase.upadeUserDirectory()
     }
     
     

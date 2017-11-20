@@ -9,6 +9,6 @@
 import Foundation
 
 open class DefaultsKeys {
-    static let iCloudRecordId = DefaultsKey<String?>("iCloudRecordId")
+    static let iCloudRecordId = DefaultsKey<String>("iCloudRecordId")
     init() {}
 }
